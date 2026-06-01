@@ -14,7 +14,12 @@ public class ProjectKhangVu {
         System.out.println("Hello World!");
     }
     
+    public static void showInfo() {
+        System.out.println("New functionality");
+    }
+    
     public static void main(String[] args) {
         greet();
+        showInfo();
     }
 }

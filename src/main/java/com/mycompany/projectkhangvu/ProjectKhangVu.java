@@ -10,7 +10,11 @@ package com.mycompany.projectkhangvu;
  */
 public class ProjectKhangVu {
 
-    public static void main(String[] args) {
+    public static void greet() {
         System.out.println("Hello World!");
+    }
+    
+    public static void main(String[] args) {
+        greet();
     }
 }
